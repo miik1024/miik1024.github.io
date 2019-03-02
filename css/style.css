@@ -1212,7 +1212,7 @@ article .content .caption {
 #footer {
   position: absolute;
   bottom: 0;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   width: 100%;
   color: #666;
   vertical-align: top;
@@ -1242,7 +1242,7 @@ article .content .caption {
 }
 #footer a {
   color: #666;
-  text-decoration: underline;
+  text-decoration: none;
   background-image: none;
 }
 #footer a:hover {
