@@ -760,15 +760,20 @@ footer.is-mobile {
   #top-contianer {
     background-attachment: local;
   }
+  #site-name {
+    font-weight: bold;
+    cursor: pointer;
+  }
   #page-header {
-    padding: 10px 0.8rem;
+    padding: 2px 0.8rem;
   }
   #page-header .toggle-menu {
     display: block;
+    padding-top: 10px;
   }
   #page-header .menus {
     position: absolute;
-    top: 3rem;
+    top: 2rem;
     right: 0.8rem;
     display: none;
     width: 8rem;
@@ -784,7 +789,7 @@ footer.is-mobile {
     padding-left: 0.6rem;
     color: #4c4948;
     text-shadow: none;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   #page-header .menus a:hover {
     color: #1b9ef3;
