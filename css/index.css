@@ -596,7 +596,7 @@ footer.is-mobile {
 #nav {
   position: relative;
   margin-bottom: 1rem;
-  background-color: #1b9ef3;
+  background-color: $light-white;
   background-attachment: fixed;
   background-position: center;
   -webkit-background-size: cover;
@@ -619,12 +619,13 @@ footer.is-mobile {
 #site-sub-title {
   color: #eee;
   text-align: center;
-  text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,0.15);
+  text-shadow: 0.1rem 0.1rem 0.2rem #09f3b5;
   line-height: 1.5;
 }
 #site-title {
   font-weight: bold;
   font-size: 1.3rem;
+  text-shadow: 0.1rem 0.1rem 0.2rem #0984f3;
 }
 #site-sub-title {
   font-size: 0.8rem;
@@ -638,7 +639,7 @@ footer.is-mobile {
 #site-social-icons .social-icon {
   margin: 0 1rem;
   color: #eee;
-  text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,0.15);
+  text-shadow: 0.1rem 0.1rem 0.2rem #37a0ff;
   font-size: 1.4rem;
   cursor: pointer;
 }
@@ -668,6 +669,7 @@ footer.is-mobile {
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  text-shadow: 0.1rem 0.1rem 0.2rem #0984f3;
 }
 #page-header .toggle-menu:hover {
   color: #fff;
@@ -681,9 +683,9 @@ footer.is-mobile {
 }
 #page-header .site-page {
   position: relative;
-  margin-left: 1rem;
+  margin-left: 1.4rem;
   text-shadow: 0.05rem 0.05rem 0.1rem rgba(0,0,0,0.3);
-  font-size: 1.1rem;
+  font-size: 1rem;
   cursor: pointer;
 }
 #page-header .site-page::after {
@@ -742,7 +744,6 @@ footer.is-mobile {
   transform: translate3d(0, 100%, 0);
 }
 #page-header #site-name {
-  text-shadow: 0.1rem 0.1rem 0.2rem #fff;
   font-weight: bold;
   cursor: pointer;
 }
