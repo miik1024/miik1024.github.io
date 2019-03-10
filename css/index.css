@@ -30,7 +30,7 @@ body {
   height: 8px;
 }
 *::-webkit-scrollbar-thumb {
-  background: #1b9ef3;
+  background: rgba(119,136,153,0.78);
 }
 *::-webkit-scrollbar-track {
   background-color: transparent;
