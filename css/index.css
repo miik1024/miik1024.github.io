@@ -627,7 +627,7 @@ footer.is-mobile {
   background-attachment: local;
 }
 #site-info {
-  padding: 9.7rem 1rem 0;
+  padding: 9.7rem 1rem;
 }
 #site-title,
 #site-sub-title {
@@ -646,17 +646,15 @@ footer.is-mobile {
   margin: 10px auto;
 }
 #site-social-icons {
-  margin: 8rem auto 0;
+  margin: 0rem auto;
   text-align: right;
   color: #eee;
-  text-shadow: 0.1rem 0.1rem 0.2rem #37a0ff;
-  font-size: 1rem;
+  display: inline;
 }
 #site-social-icons .social-icon {
   margin: 0 0.2rem 0 0.5rem;
   color: #eee;
-  text-shadow: 0.1rem 0.1rem 0.2rem #37a0ff;
-  font-size: 1.4rem;
+  font-size: 1.19rem;
   cursor: pointer;
 }
 #site-social-icons .social-icon:hover {
