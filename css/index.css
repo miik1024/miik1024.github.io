@@ -624,7 +624,7 @@ footer.is-mobile {
   background-attachment: local;
 }
 #site-info {
-  padding: 10rem 1rem;
+  padding: 10rem 1rem 0;
 }
 #site-title,
 #site-sub-title {
@@ -643,15 +643,14 @@ footer.is-mobile {
   margin: 10px auto;
 }
 #site-social-icons {
-  margin: 0 auto;
-  width: 15rem;
-  text-align: center;
+  margin: 8rem auto 0;
+  text-align: right;
   color: #eee;
   text-shadow: 0.1rem 0.1rem 0.2rem #37a0ff;
   font-size: 1rem;
 }
 #site-social-icons .social-icon {
-  margin: 0 0.8rem;
+  margin: 0 0.2rem 0 0.5rem;
   color: #eee;
   text-shadow: 0.1rem 0.1rem 0.2rem #37a0ff;
   font-size: 1.4rem;
@@ -667,7 +666,7 @@ footer.is-mobile {
   padding: 0px 20px;
   width: 100%;
   border: none;
-  font-size: 24px;
+  font-size: 22px;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -698,11 +697,11 @@ footer.is-mobile {
 #page-header .site-page {
   position: relative;
   margin-left: 1.4rem;
-  text-shadow: 0.05rem 0.05rem 0.1rem rgba(0,0,0,0.3);
-  font-size: 1rem;
+  font-size: 0.85rem;
+  font-weight: 750;
   cursor: pointer;
 }
-#page-header .site-page::after {
+::after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -717,10 +716,10 @@ footer.is-mobile {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-#page-header .site-page:hover::after {
+:hover::after {
   width: 100%;
 }
-#page-header.fixed {
+.fixed {
   position: fixed;
   top: -56px;
   z-index: 101;
@@ -733,32 +732,32 @@ footer.is-mobile {
   -ms-transition: -ms-transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
 }
-#page-header.fixed.open-sidebar .site-page {
+.fixed.open-sidebar .site-page {
   display: none;
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
 }
-#page-header.fixed a,
-#page-header.fixed .toggle-menu,
-#page-header.fixed #site-name {
+.fixed a,
+.fixed .toggle-menu,
+.fixed #site-name {
   color: #eee;
   text-shadow: none;
 }
-#page-header.fixed a:hover,
-#page-header.fixed .toggle-menu:hover,
-#page-header.fixed #site-name:hover {
+.fixed a:hover,
+.fixed .toggle-menu:hover,
+.fixed #site-name:hover {
   color: #eee;
 }
-#page-header.visible {
+.visible {
   -webkit-transform: translate3d(0, 100%, 0);
   -moz-transform: translate3d(0, 100%, 0);
   -o-transform: translate3d(0, 100%, 0);
   -ms-transform: translate3d(0, 100%, 0);
   transform: translate3d(0, 100%, 0);
 }
-#page-header #site-name {
-  font-weight: bold;
+#site-name {
+  font-weight: 650;
   cursor: pointer;
 }
 @media screen and (min-width: 768px) {
@@ -868,7 +867,7 @@ footer.is-mobile {
   display: block;
   margin-bottom: 0.3rem;
   border-bottom: 1px solid #eee;
-  color: #2e2e2e;
+  color: #1b9ef3;
   text-decoration: none;
   font-size: 1.4rem;
   cursor: pointer;
@@ -1145,7 +1144,7 @@ footer.is-mobile {
   cursor: pointer;
 }
 #pagination .page-number.current {
-  background: #00c4b6;
+  background: #1b9ef3;
   color: #fff;
   cursor: default;
 }
