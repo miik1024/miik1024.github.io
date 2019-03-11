@@ -836,8 +836,8 @@ footer.is-mobile {
   word-break: break-word;
 }
 .recent-post-item .content iframe {
-  width: 700px;
-  height: 393.75px;
+  width: 850px;
+  height: 478.125px;
 }
 .recent-post-item .article-type {
   margin-left: 0.3rem;
@@ -847,7 +847,7 @@ footer.is-mobile {
   color: #858585;
 }
 .recent-post-item .article-meta .sticky {
-  color: #ff7242;
+  color: #00c4b6;
 }
 .recent-post-item .article-meta i {
   margin: 0 0.2rem 0 0.3rem;
@@ -879,7 +879,7 @@ footer.is-mobile {
   transition: all 0.2s ease-in-out;
 }
 .recent-post-item .more:hover {
-  background: #ff7242;
+  background: #00c4b6;
 }
 .recent-post-item .article-title {
   display: block;
@@ -911,7 +911,7 @@ footer.is-mobile {
   cursor: pointer;
 }
 .tag-cloud a:hover {
-  color: #ff7242 !important;
+  color: #00c4b6 !important;
 }
 .tag-cloud__title {
   font-size: 1.8rem;
@@ -933,7 +933,7 @@ footer.is-mobile {
   line-height: 1;
 }
 .article-sort-title:hover:before {
-  border-color: #ff7242;
+  border-color: #00c4b6;
 }
 .article-sort-title:before {
   position: absolute;
@@ -973,7 +973,7 @@ footer.is-mobile {
   transition: all 0.2s ease-in-out;
 }
 .article-sort-item:hover:before {
-  border-color: #ff7242;
+  border-color: #00c4b6;
 }
 .article-sort-item:before {
   position: absolute;
@@ -1000,7 +1000,7 @@ footer.is-mobile {
 }
 .article-sort-item.year:before {
   top: 0.7rem;
-  border-color: #ff7242;
+  border-color: #00c4b6;
 }
 .article-sort-item__time {
   position: absolute;
@@ -1286,7 +1286,7 @@ footer.is-mobile {
 }
 .layout {
   margin: 0 auto;
-  width: 700px;
+  width: 850px;
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
@@ -1456,7 +1456,7 @@ footer.is-mobile {
   line-height: 1.2rem;
 }
 #content-inner ul > li:hover:before {
-  border-color: #ff7242;
+  border-color: #00c4b6;
 }
 #content-inner ul > li:before {
   top: 10px;
@@ -1692,7 +1692,7 @@ img:hover {
   line-height: 1.6rem;
 }
 #sidebar .author-info .follow-button a:hover {
-  background: #ff7242;
+  background: #00c4b6;
 }
 #sidebar .author-info.hide {
   display: none;
@@ -1779,7 +1779,7 @@ img:hover {
   transition: all 0.2s ease-in-out;
 }
 #sidebar .author-info-links__name:hover {
-  background: #ff7242;
+  background: #00c4b6;
 }
 #sidebar .author-info-links__name:before {
   position: absolute;
@@ -2026,7 +2026,7 @@ img:hover {
   padding-left: 1.5rem;
 }
 #local-search .local-search__hit-item:hover:before {
-  border-color: #ff7242;
+  border-color: #00c4b6;
 }
 #local-search .local-search__hit-item:before {
   position: absolute;
