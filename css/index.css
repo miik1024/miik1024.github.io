@@ -627,7 +627,7 @@ footer.is-mobile {
   background-attachment: local;
 }
 #site-info {
-  padding: 9.7rem 1rem 0;
+  padding: 9.7rem 1rem 3rem;
 }
 #site-title,
 #site-sub-title {
@@ -672,10 +672,10 @@ footer.is-mobile {
   animation: blink 0.7s infinite;
   color: #fff;
   font-size: 1.2rem;
-  margin: 7rem 0.5rem 1.5rem;
+  margin: 1rem 0.5rem 11.5rem;
   text-shadow: 0.1rem 0.1rem 0.2rem #09f3b5;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
 }
 #page-header {
   position: absolute;

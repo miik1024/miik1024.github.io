@@ -381,7 +381,7 @@
 //# sourceMappingURL=typed.min.js.map
 
        var typed = new Typed('.miik', {
-         strings: ["The greatest accomplishment is not","The greatest accomplishment is not in never falling, ","The greatest accomplishment is not in never falling, but in rising again after you fall."],
+         strings: ["Simplicity is the ultimate sophistication"],
         typeSpeed: 30,
         backSpeed: 200,
         smartBackspace: true,
@@ -389,3 +389,15 @@
         backDelay: 500
          
         });
+
+
+
+//       var typed = new Typed('.miik', {
+//         strings: ["The greatest accomplishment is not","The greatest accomplishment is not in never falling, ","The greatest accomplishment is not in never falling, but in rising again after you fall."],
+//        typeSpeed: 30,
+//        backSpeed: 200,
+//        smartBackspace: true,
+//        cursorChar: '',
+//        backDelay: 500
+//         
+//        });
