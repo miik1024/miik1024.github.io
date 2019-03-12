@@ -22,7 +22,7 @@ body {
   background: #fff;
   color: #4c4948;
   font-size: 14px;
-  font-family: Lato, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Lato, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica, Arial, serif;
   line-height: 2;
 }
 *::-webkit-scrollbar {
@@ -267,7 +267,7 @@ blockquote {
 }
 .article-container pre,
 .article-container code {
-  font-family: consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace, Helvetica Neue For Number !important;
+  font-family: consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace, Helvetica !important;
 }
 .article-container code {
   padding: 0.1rem 0.2rem;
@@ -609,7 +609,7 @@ footer.is-mobile {
 }
 #nav {
   position: relative;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   background-color: $light-white;
   background-attachment: fixed;
   background-position: center;
@@ -627,7 +627,7 @@ footer.is-mobile {
   background-attachment: local;
 }
 #site-info {
-  padding: 9.7rem 1rem 3rem;
+  padding: 8rem 1rem 2rem;
 }
 #site-title,
 #site-sub-title {
@@ -888,6 +888,7 @@ footer.is-mobile {
   color: #1b9ef3;
   text-decoration: none;
   font-size: 1.4rem;
+  font-family: serif;
   cursor: pointer;
   cursor: pointer;
   -webkit-transition: all 0.2s ease-in-out;
@@ -1251,6 +1252,7 @@ footer.is-mobile {
 #top-container #post-title {
   text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,0.15);
   font-size: 1.3rem;
+  font-family: serif;
 }
 #top-container i.fa.fa-angle-right {
   margin: 0 0.3rem 0 0.2rem;
