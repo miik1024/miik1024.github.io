@@ -271,7 +271,7 @@ blockquote {
 }
 .article-container code {
   padding: 0.1rem 0.2rem;
-  background: rgba(27,31,35,0.05);
+  background: #ceebf9;
   color: #1f2d3d;
   word-wrap: break-word;
   font-size: 14px;
@@ -836,8 +836,8 @@ footer.is-mobile {
   word-break: break-word;
 }
 .recent-post-item .content iframe {
-  width: 850px;
-  height: 478.125px;
+  width: 800px;
+  height: 450px;
 }
 .recent-post-item .article-type {
   margin-left: 0.3rem;
@@ -1288,7 +1288,7 @@ footer.is-mobile {
 }
 .layout {
   margin: 0 auto;
-  width: 850px;
+  width: 800px;
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
@@ -1475,7 +1475,7 @@ footer.is-mobile {
   margin-bottom: 1rem;
 }
 a {
-  color: #99a9bf;
+  color: #eee;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
